@@ -23,7 +23,7 @@ public class IndexController {
     }
 
     @Resource
-    OutputService outputService;
+    private OutputService outputService;
 
     @RequestMapping(value = "/linkCore")
     @ResponseBody
